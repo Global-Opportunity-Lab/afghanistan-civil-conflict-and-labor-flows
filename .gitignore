@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+__pycache__
+.DS_Store
+.Rapp.history
+Rplots.pdf
+code/demo/output/*.pdf
+code/paper_figures_tables/output/*.pdf
+filename_mapping.csv
+pft_env/

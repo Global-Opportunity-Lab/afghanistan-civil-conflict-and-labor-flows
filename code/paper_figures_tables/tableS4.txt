@@ -1,0 +1,17 @@
+
+Descriptive statistics for covariates
+======================================================================================
+Statistic                                     N     Mean     St. Dev.   Min     Max   
+--------------------------------------------------------------------------------------
+Area (squared km)                           1,420 1,333.10   1,793.30  25.83 21,864.30
+Non-poppy cultivation (ha)                  1,420 8,521.51  10,658.49  1.00  70,862.50
+Population                                  1,420 89,218.27 243,207.10 5,640 3,678,034
+Provincial capital                          1,420   0.14       0.35      0       1    
+Fraction living in cultivated areas         1,420   0.08       0.06    0.001   0.30   
+Road density                                1,420   1.20       1.36    0.00    12.18  
+Fraction living in built-up areas           1,420   0.86       0.10    0.47    1.00   
+Fraction of roads that are tracks and paths 1,414   0.89       0.13    0.01    1.00   
+Health facilities per 100,000               1,420   7.84       4.76    0.00    34.65  
+Ethnic diversity                            1,411   0.21       0.21    0.00    0.76   
+Proportion of barren land                   1,420   0.73       0.22    0.01    1.00   
+--------------------------------------------------------------------------------------
