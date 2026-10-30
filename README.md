@@ -83,6 +83,8 @@ All scripts were written without the use of AI. While the code was checked for c
 
 The `paper_figures_tables` folder contains scripts and pre-computed full-data outputs to reproduce every figure and table in the paper exactly.
 
+The README.md file in the folder has further details about each script. 
+
 ## Setup
 
 **R packages** — install once in R:
