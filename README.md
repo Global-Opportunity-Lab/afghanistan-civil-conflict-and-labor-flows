@@ -76,6 +76,9 @@ These scripts query MODIS and Landsat via the Earth Engine Python API and can be
 
 After running the home location detection and migration metrics steps above, run all scripts in `code/estimation/` as described in `code/estimation/README.md`.
 
+### Disclaimer
+All scripts were written without the use of AI. While the code was checked for correctness, comments and documentation may be lacking in some places. Please contact the authors with any clarifications. 
+
 # Paper figures and tables
 
 The `paper_figures_tables` folder contains scripts and pre-computed full-data outputs to reproduce every figure and table in the paper exactly.
