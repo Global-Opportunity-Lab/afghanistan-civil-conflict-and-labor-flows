@@ -9,12 +9,15 @@ This work is licensed under the Apache License, Version 2.0.
 # Instructions
 One of the main datasets for the paper contains detailed information on over 20 billion mobile phone transactions in Afghanistan. These data contain proprietary and confidential information belonging to a major telecommunications operator, which we do not have permission to release.
 
-However, all the code required to process the data and produce the results are in the following folders:
+However, all the code required to process the data and produce the results are in the following folders (these cannot be run without data access):
 
 - `home_location_detector`: Python notebooks to infer each subscriber's daily home location from raw CDR (Steps 1–3)
 - `displacement-metrics`: Python notebooks and scripts to compute migration metrics from the inferred home locations
 - `best_dates`: Python notebooks to generate peak-NDVI best dates and agricultural land masks from MODIS via Google Earth Engine
 - `estimation`: R scripts to create the analysis dataset and produce all results; also contains Python scripts for data preparation (`3bb_fig_S3_data_prep.py`, `5a_figS12_dataprep.py`)
+
+The following scripts can be run, and do not require data access:
+
 - `paper_figures_tables`: Scripts to produce main and supplementary figures / tables. 
 
 # Full estimation pipeline
