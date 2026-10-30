@@ -179,7 +179,6 @@ plot1 <- outDTF %>%
 pdf(file.path(OUT_GENERAL, "10-24-23fig3b.pdf"), width = 8, height = 3)
 gridExtra::grid.arrange(plot1, nrow = 1)
 dev.off()
-# rsync -P -e 'ssh -J xtai@hilbert.ucdavis.edu' xtai@fati.ischool.berkeley.edu:/home/xtai/climate/3-8-23migrationCleanCode/output/general/* /Users/xtai/Desktop/seasonalMigration/paper/general
 
 outDTF$p <- 2*pnorm(abs(outDTF$estimate)/sqrt(outDTF$variance), lower.tail = FALSE)
 
